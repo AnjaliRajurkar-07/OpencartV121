@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-11T14:53:04 IST" name="Suite" finished-at="2024-08-11T14:53:23 IST" duration-ms="19055">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_TestLoginPage.VerifyLogin()[pri:0, instance:testCases.TC_001_TestLoginPage@6150c3ec]" name="VerifyLogin" class="testCases.TC_001_TestLoginPage"/>
+        <method signature="TC_002_Verify_Login.testLogin()[pri:0, instance:testCases.TC_002_Verify_Login@1f2586d6]" name="testLogin" class="testCases.TC_002_Verify_Login"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_001_TestLoginPage.VerifyLogin()[pri:0, instance:testCases.TC_001_TestLoginPage@6150c3ec]" name="VerifyLogin" class="testCases.TC_001_TestLoginPage"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_002_Verify_Login.testLogin()[pri:0, instance:testCases.TC_002_Verify_Login@1f2586d6]" name="testLogin" class="testCases.TC_002_Verify_Login"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-08-11T14:53:04 IST" name="Linux-chrome" finished-at="2024-08-11T14:53:23 IST" duration-ms="19055">
+      <class name="testCases.TC_002_Verify_Login">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_Verify_Login@1f2586d6]" started-at="2024-08-11T14:53:14 IST" name="setUp" finished-at="2024-08-11T14:53:18 IST" duration-ms="3534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC_002_Verify_Login@1f2586d6]" started-at="2024-08-11T14:53:18 IST" name="testLogin" finished-at="2024-08-11T14:53:22 IST" duration-ms="4580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_Verify_Login@1f2586d6]" started-at="2024-08-11T14:53:22 IST" name="tearDown" finished-at="2024-08-11T14:53:23 IST" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_Verify_Login -->
+      <class name="testCases.TC_001_TestLoginPage">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_001_TestLoginPage@6150c3ec]" started-at="2024-08-11T14:53:05 IST" name="setUp" finished-at="2024-08-11T14:53:11 IST" duration-ms="6156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyLogin()[pri:0, instance:testCases.TC_001_TestLoginPage@6150c3ec]" started-at="2024-08-11T14:53:11 IST" name="VerifyLogin" finished-at="2024-08-11T14:53:13 IST" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_TestLoginPage@6150c3ec]" started-at="2024-08-11T14:53:13 IST" name="tearDown" finished-at="2024-08-11T14:53:14 IST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_TestLoginPage -->
+    </test> <!-- Linux-chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
